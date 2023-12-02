@@ -1,0 +1,30 @@
+<div>
+  <span class="menu__title">CABAÑAS "LA FELIPA"</span>
+  <label for="menu">
+    <!-- Incorporacion icono hamburguesa para menu -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+    </svg>
+  </label>
+  <!-- incorporacion de checkbox que habilita menu en responsive -->
+  <input id="menu" type="checkbox" />
+  <!-- Inicio menu de navegacion reponsive -->
+  <ul class="nav__menu__resp1">
+    <li class="nav__menu__item1__resp">
+      <a href="{% url 'home' %}">Home</a>
+    </li>
+    <li class="nav__menu__item1__resp">
+      <a href="./pages/cabanas.html">Cabañas</a>
+    </li>
+    <li class="nav__menu__item1__resp">
+      <a href="./pages/galeria.html">Galería</a>
+    </li>
+    <li class="nav__menu__item1__resp">
+      <a href="./pages/tarifas.html">Tarifas</a>
+    </li>
+    <li class="nav__menu__item1__resp">
+      <a href="./pages/contacto.html">Contacto</a>
+    </li>
+  </ul>
+  <!-- Fin menu de navegacion reponsive -->
+</div>

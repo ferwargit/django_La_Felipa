@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": -64.7733,
+        "lat": -31.8983
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "cielo claro",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 15.72,
+        "feels_like": 12.27,
+        "temp_min": 11.24,
+        "temp_max": 13.72,
+        "pressure": 1014,
+        "humidity": 43,
+        "sea_level": 1014,
+        "grnd_level": 860
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.61,
+        "deg": 55,
+        "gust": 1.99
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1696459643,
+    "sys": {
+        "type": 2,
+        "id": 2086764,
+        "country": "AR",
+        "sunrise": 1696413188,
+        "sunset": 1696458145
+    },
+    "timezone": -10800,
+    "id": 7304381,
+    "name": "Villa Berna",
+    "cod": 200
+}
