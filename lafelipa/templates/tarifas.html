@@ -1,0 +1,60 @@
+{% extends 'layouts/base.html' %}
+
+{% load static %}
+
+{% block title %}
+  Tarifas
+{% endblock %}
+
+{% block extra_css %}
+  <link rel="stylesheet" href="{% static 'css/tarifas.css' %}" />
+{% endblock %}
+
+{% block main %}
+  <main>
+    <h1 class="gallery_title">Tarifas</h1>
+    <div class="gallery">
+      <table class="tarifas">
+        <thead>
+          <tr style="text-align: center;">
+            <th>Cabañas</th>
+            <th>Temporada baja</th>
+            <th>Temporada alta</th>
+            <th>Promociones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="text-align: center;">
+            <td>2 pers.</td>
+            <td>Consultar</td>
+            <td>Consultar</td>
+            <td>Consultar</td>
+          </tr>
+          <!-- Agrega espacio entre las filas con la propiedad CSS -->
+          <tr style="height: 25px; text-align: center; ">
+            <td colspan="4"></td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <u>TEMPORADA BAJA:</u> de Abril a Noviembre excluyendo fines de semana largos, Semana Santa y vacaciones de invierno.
+            </td>
+          </tr>
+          <tr style="height: 5px; text-align: center; ">
+            <td colspan="4"></td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              <u>TEMPORADA ALTA:</u> Enero, Febrero, Marzo.
+            </td>
+          </tr>
+          <tr style="height: 10px; text-align: center; ">
+            <td colspan="4"></td>
+          </tr>
+          <tr>
+            <td colspan="4">Las tarifas pueden variar según la disponibilidad y el momento del año. Para confirmar las tarifas definitivas comunicarse con el alojamiento.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+{% endblock %}

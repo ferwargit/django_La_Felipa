@@ -5,5 +5,8 @@ def home(request):
     context = {'show_clima': True}
     return render(request, 'home.html', context)
 
+def tarifas(request):
+    return render(request, 'tarifas.html')
+
 def contacto(request):
     return render(request, 'contacto.html')
