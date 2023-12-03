@@ -1,6 +1,6 @@
-# TPO Desarrollo Web
+# TPO Desarrollo Web con Django
 
-## HTML, CSS y Javascript
+## HTML, CSS , Javascript, Python y Django
 
 ## - Proyecto: *Cabañas La Felipa*
 
@@ -22,9 +22,16 @@ Proyecto destinado a la creación de un sitio web, orientado a brindar informaci
 
 ## CONTENIDO Y FUNCIONALIDADES
 
+APLICACION: lafelipa
+
 * Contenido: Textos informativos, imágenes del predio, las cabañas y de las atracciones de la comuna.
 
 * Funcionalidades: Conocer servicios, tarifas y ubicación que el predio ofrece. Recorrer galería de imágenes y conocer atracciones de La Cumbrecita. Contactarse con la administración de las cabañas y acceder a redes sociales y/o realizar opiniones.
+
+APLICACION: gestion_cabanas
+
+* CRUD - Gestión de Cabañas: Sección administrativa donde podes crear, leer, actualizar y eliminar las cabañas disponibles. Los datos incluyen el nombre de la cabaña, descripción, número de habitaciones, capacidad, precio, disponibilidad, y fotos.
+Solo el administrador necesita manejar la gestión de las cabañas, entonces se utiliza el administrador de Django.
 
 ## - REQUISITOS
 
@@ -46,6 +53,8 @@ Enlace al sitio web de OpenWeather: <https://openweathermap.org/>
 
 ## - RECURSOS
 
+* Framework: [Django](https://www.djangoproject.com/)
+* Framework: [Bootstrap](https://getbootstrap.com/)
 * Iconos: [Font Awesome](https://fontawesome.com/)
 * Fuentes: [Google Fonts](https://fonts.google.com/)
 * Mapa: [Google Maps](https://www.google.com/maps)
@@ -54,10 +63,7 @@ Enlace al sitio web de OpenWeather: <https://openweathermap.org/>
 
 ## - LINKS
 
-* [Repositorio: **github**](https://github.com/ArielNieto1975/Cabanas_La_Felipa)
-* [Sitio Web: **github-pages**](https://arielnieto1975.github.io/Cabanas_La_Felipa/)
-* [Sitio Web: **netlify**](https://la-felipa.netlify.app/)
-* [Sitio Web: **vercel**](https://la-felipa.vercel.app/)
+* [Repositorio: **github**](https://github.com/ferwargit/django_La_Felipa)
 
 ## - Colaboradores
 
