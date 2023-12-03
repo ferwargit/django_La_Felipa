@@ -1,15 +1,17 @@
 <nav class="minav">
   <ul class="nav__menu1">
-    <div class="clima-container">
-      <div class="icon-container">
-        <i id="icon" title="Clima en La Cumbrecita"></i>
+    {% if show_clima %}
+      <div class="clima-container">
+        <div class="icon-container">
+          <i id="icon" title="Clima en La Cumbrecita"></i>
+        </div>
+        <div class="temp-container">
+          <li class="nav__menu__item1">
+            <span class="temp"></span>
+          </li>
+        </div>
       </div>
-      <div class="temp-container">
-        <li class="nav__menu__item1">
-          <span class="temp"></span>
-        </li>
-      </div>
-    </div>
+    {% endif %}
     <li class="nav__menu__item1">
       <a href="{% url 'home' %}" class="a1">Home</a>
     </li>
@@ -23,7 +25,7 @@
       <a href="./pages/tarifas.html" class="a4">Tarifas</a>
     </li>
     <li class="nav__menu__item1 contact">
-      <a href="./pages/contacto.html">Contacto</a>
+      <a href="{% url 'contacto' %}">Contacto</a>
     </li>
   </ul>
 </nav>
