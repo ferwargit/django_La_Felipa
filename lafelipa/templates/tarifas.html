@@ -15,7 +15,7 @@
 {% endblock %}
 
 {% block main %}
-  <main>
+  <section>
     <h1 class="gallery_title">Tarifas</h1>
     <div class="gallery">
       <table class="tarifas">
@@ -60,5 +60,23 @@
         </tbody>
       </table>
     </div>
-  </main>
+  </section>
+  <section>
+    <h2 class="gallery_title">Cabañas Disponibles</h2>
+    <div class="gallery">
+      {% for cabana in cabanas %}
+        <div class="card">
+          <img class="card__img" src="{{ MEDIA_URL }}{{ cabana.foto }}" alt="{{ cabana.nombre }}" />
+          <div class="card__body">
+            <h5 class="card__title">{{ cabana.nombre }}</h5>
+            <p class="card__text">{{ cabana.descripcion }}</p>
+            <ul class="card__list">
+              <li>Habitaciones: {{ cabana.num_habitaciones }}</li>
+              <li>Personas: {{ cabana.capacidad }}</li>
+            </ul>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
 {% endblock %}
