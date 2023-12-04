@@ -69,5 +69,4 @@ Enlace al sitio web de OpenWeather: <https://openweathermap.org/>
 
 * [María Julia Carral](https://github.com/JuliC88)
 * [Ariel Nieto](https://github.com/ArielNieto1975)
-* [Mariano Torchia](https://github.com/marianotorchia)
 * [Fernando Warno](https://github.com/ferwargit)
