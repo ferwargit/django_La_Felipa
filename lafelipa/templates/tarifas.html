@@ -6,11 +6,13 @@
   Tarifas
 {% endblock %}
 
-{% block extra_css %}
-  <link rel="stylesheet" href="{% static 'css/tarifas.css' %}" />
+{% block bootstrap %}
+
 {% endblock %}
 
-{% block bootstrap %}
+{% block extra_css %}
+  <link rel="stylesheet" href="{% static 'css/tarifas.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/gallery.css' %}" />
 
 {% endblock %}
 
@@ -65,14 +67,16 @@
     <h2 class="gallery_title">Cabañas Disponibles</h2>
     <div class="gallery">
       {% for cabana in cabanas %}
-        <div class="card">
-          <img class="card__img" src="{{ MEDIA_URL }}{{ cabana.foto }}" alt="{{ cabana.nombre }}" />
+        <div class="cards">
+          <div class="gallery__pic">
+            <img class="card__img" src="{{ MEDIA_URL }}{{ cabana.foto }}" alt="{{ cabana.nombre }}" />
+          </div>
           <div class="card__body">
-            <h5 class="card__title">{{ cabana.nombre }}</h5>
+            <h5 style = "font-size: 1.3rem" class="card__title">{{ cabana.nombre }}</h5>
             <p class="card__text">{{ cabana.descripcion }}</p>
             <ul class="card__list">
-              <li>Habitaciones: {{ cabana.num_habitaciones }}</li>
-              <li>Personas: {{ cabana.capacidad }}</li>
+              <li style = "list-style: none">Habitaciones: {{ cabana.num_habitaciones }}</li>
+              <li style = "list-style: none">Personas: {{ cabana.capacidad }}</li>
             </ul>
           </div>
         </div>
