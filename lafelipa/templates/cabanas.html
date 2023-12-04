@@ -46,6 +46,20 @@
       </li>
     </ul>
   </section>
+
+  <section>
+    <h2 class="gallery_title">Cabañas Disponibles</h2>
+    <div class="gallery">
+      {% for cabana in cabanas %}
+      {{ cabana }}
+        <div class="gallery__item">
+          <img src="{{ cabana.foto.url }}" alt="Cabaña {{ cabana.nombre }}">
+          <p>{{ cabana.nombre }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
   <h2 class="gallery_title">Todos los servicios y comodidades</h2>
   <section class="servicios">
     <ul class="servicios_list">
