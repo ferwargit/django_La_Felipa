@@ -33,8 +33,8 @@ const jsonUrl = document.body.dataset.jsonUrl;
 
 async function getWeather() {
 	try {
-		// const response = await fetch(url);
-		const response = await fetch(jsonUrl);
+		const response = await fetch(url);
+		// const response = await fetch(jsonUrl);
 		// const response = await fetch("https://arielnieto1975.github.io/Cabanas_La_Felipa/json/data.json");
 		if (!response.ok) {
 			throw new Error(`HTTP error! status: ${response.status}`);
