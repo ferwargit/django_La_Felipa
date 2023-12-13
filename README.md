@@ -56,6 +56,7 @@ Enlace al sitio web de OpenWeather: <https://openweathermap.org/>
 * Framework: [Django](https://www.djangoproject.com/)
 * Framework: [Bootstrap](https://getbootstrap.com/)
 * Iconos: [Font Awesome](https://fontawesome.com/)
+* Weather Icons: [Weather Icons](https://erikflowers.github.io/weather-icons/)
 * Fuentes: [Google Fonts](https://fonts.google.com/)
 * Mapa: [Google Maps](https://www.google.com/maps)
 * Formulario: [Formspree](https://formspree.io/)
@@ -64,6 +65,7 @@ Enlace al sitio web de OpenWeather: <https://openweathermap.org/>
 ## - LINKS
 
 * [Repositorio: **github**](https://github.com/ferwargit/django_La_Felipa)
+* [Pythonanywhere:](https://ferwar.pythonanywhere.com/)
 
 ## - Colaboradores
 
