@@ -67,11 +67,6 @@ Enlace al sitio web de OpenWeather: <https://openweathermap.org/>
 * [Repositorio: **github**](https://github.com/ferwargit/django_La_Felipa)
 * [Pythonanywhere](https://ferwar.pythonanywhere.com/)
 
-## - LINKS
-
-* <a href="https://github.com/ferwargit/django_La_Felipa" target="_blank">Repositorio: **github**</a>
-* <a href="https://ferwar.pythonanywhere.com/" target="_blank">Pythonanywhere</a>
-
 ## - Colaboradores
 
 * [María Julia Carral](https://github.com/JuliC88)
